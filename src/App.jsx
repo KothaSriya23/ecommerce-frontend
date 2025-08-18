@@ -24,7 +24,7 @@ function App() {
     <>
     <BrowserRouter basename="/ecommerce">
       <Routes>
-        <Route path="/" element={<HomePage />}>
+        <Route path="/" element={<S201 Home />}>
           <Route index element={<AboutUs />} />
           <Route path="home" element={<Home />} />
           <Route path="about-us" element={<AboutUs />} />
